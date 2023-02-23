@@ -75,6 +75,7 @@ button {
     -moz-transform-style: preserve-3d;
     -o-transform-style: preserve-3d;
     cursor: pointer;
+    perspective: 600px;
 }
 
 .card .front, 
