@@ -98,8 +98,7 @@ button {
     transform: rotateY(180deg);
   }
 
-@media screen and (max-width: 375px) {
-
+@media screen and (max-width: 675px) {
     .container {
         position: absolute;
         transform: translate(-50%, -50%);
@@ -107,8 +106,7 @@ button {
         top: 50%;
       }
 
-    
-    .card {
+      .card {
         width: 75px;
         height: 75px;
         background: linear-gradient(340deg, rgba(253,211,96,1) 41%, rgba(208,94,228,1) 100%);
@@ -117,13 +115,4 @@ button {
         transition: transform 0.5s ease;
         transform-style: preserve-3d;
     }
-}
-
-@media screen and (max-width: 675px) {
-    .container {
-        position: absolute;
-        transform: translate(-50%, -50%);
-        left: 50%;
-        top: 50%;
-      }
 }
