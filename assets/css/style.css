@@ -71,7 +71,6 @@ button {
     transition: transform 0.5s ease;
     transform-style: preserve-3d;
     cursor: pointer;
-    z-index: 0;
 }
 
 .card .front, 
@@ -89,6 +88,7 @@ button {
 
 .card .back {
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
 }
 
 .card .front {
@@ -97,6 +97,7 @@ button {
   
 .card.flip {
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
   }
 
 @media screen and (max-width: 675px) {
