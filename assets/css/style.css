@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Itim", sans-serif;
   }
   
 body {
@@ -12,7 +12,6 @@ body {
     background-image: url("../images/bg.png");
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: 'Itim', cursive;
 }
 
 .container {
@@ -53,9 +52,7 @@ button {
     padding: 10px 20px;
     border: 0;
     cursor: pointer;
-    font-family: Fredoka;
-    font-size: 18pt;
-    transition: all 0.5s;
+    font-size: 24px;
 }
 
 .hide {
@@ -101,19 +98,21 @@ button {
 
 @media screen and (max-width: 675px) {
     .container {
-        position: absolute;
         transform: translate(-50%, -50%);
         left: 50%;
         top: 50%;
       }
+    
+    .game-controls {
+        display: contents;
+    }
 
-      .card {
-        width: 75px;
-        height: 75px;
-        background: linear-gradient(340deg, rgba(253,211,96,1) 41%, rgba(208,94,228,1) 100%);
-        border-radius: 10px;
-        position: relative;
-        transition: transform 0.5s ease;
-        transform-style: preserve-3d;
+    .card {
+        width: 85px;
+        height: 85px;
+    }
+
+    button {
+      font-size: 18px;
     }
 }
