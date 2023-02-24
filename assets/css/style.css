@@ -9,7 +9,7 @@
   
 body {
     height: 100vh;
-    background-image: url("../images/bg.png");
+    background-image: url("../images/bg.webp");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -68,7 +68,6 @@ button {
     transition: transform 0.5s ease;
     transform-style: preserve-3d;
     cursor: pointer;
-    perspective: 600px;
 }
 
 .card .front, 
@@ -114,23 +113,3 @@ button {
   }
 }
 
-/* @media screen and (max-width: 368px) {
-  .container {
-      transform: translate(-50%, -50%);
-      left: 50%;
-      top: 50%;
-    }
-  
-  .game-controls {
-      display: contents;
-  }
-
-  .card {
-      width: 85px;
-      height: 85px;
-  }
-
-  button {
-    font-size: 18px;
-  }
-} */
