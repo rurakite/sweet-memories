@@ -96,7 +96,7 @@ button {
     transform: rotateY(180deg);
   }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 768px) {
   
   .card {
       width: 120px;
@@ -114,7 +114,7 @@ button {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 368px) {
   .container {
       transform: translate(-50%, -50%);
       left: 50%;
