@@ -16,7 +16,7 @@ function movesCounter() {
 startButton.addEventListener("click", () => {
   startButton.classList.add("hide");
   startGame();
-})
+});
 
 
 replayButton.addEventListener("click", event => {
@@ -55,7 +55,7 @@ function flipCard() {
 
 function checkForMatch() {
   let isMatch = firstCard.dataset.image === secondCard.dataset.image;
-  isMatch ? disableCards() : unflipCards();
+  return isMatch ? disableCards() : unflipCards();
 }
 
 function disableCards() {

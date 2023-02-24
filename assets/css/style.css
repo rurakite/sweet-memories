@@ -69,12 +69,7 @@ button {
     border-radius: 10px;
     position: relative;
     transition: transform 0.5s ease;
-    -webkit-transition: transform 0.5s ease;;
     transform-style: preserve-3d;
-    -webkit-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
     cursor: pointer;
     perspective: 600px;
 }
@@ -86,19 +81,14 @@ button {
     height: 100%;
     border-radius: 10px;
     backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
     background-position: center;
     background-size: 85%;
-    background-color: linear-gradient(340deg, rgba(253,211,96,1) 41%, rgba(208,94,228,1) 100%);
+    background: linear-gradient(340deg, rgba(253,211,96,1) 41%, rgba(208,94,228,1) 100%);
     background-repeat: no-repeat;
 }
 
 .card .back {
     transform: rotateY(180deg);
-    -webkit-transform: rotateY(180deg);
-    -ms-transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-    -o-transform: rotateY(180deg);
 }
 
 .card .front {
@@ -107,10 +97,6 @@ button {
   
 .card.flip {
     transform: rotateY(180deg);
-    -webkit-transform: rotateY(180deg);
-    -ms-transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-    -o-transform: rotateY(180deg);
   }
 
 @media screen and (max-width: 675px) {
