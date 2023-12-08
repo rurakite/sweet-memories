@@ -1,5 +1,5 @@
-# Sweet Memory
-Sweet Memory is a web application that allows user to get part in the memory game where you can improve your memory skills by guessing two identical cards on the board.
+# Sweet Memories
+Sweet Memories is a web application that allows user to get part in the memory game where you can improve your memory skills by guessing two identical cards on the board.
 ![Responsice Mockup](./assets/readme_media/mockup.png)
 ## Description
 This game was created by using HTML, CSS and Javascript languages. The main page will provide you a game board with sixteens cards showing a question mark on it. By clicking on each card user will flip the card to another side with specific picture. The idia is to find another one card with exectly same picture on it. Once you find all pairs of card game can be counted as done. That will be a great fun for children as well as for adults. 
@@ -53,4 +53,4 @@ This game was created by using HTML, CSS and Javascript languages. The main page
   - Click 'Save'
   - A live link will be displayed in a green banner when published successfully.
   
-  The link can be found here - [https://rurakite.github.io/sweet-memory/](https://rurakite.github.io/sweet-memories/)
+  The link can be found here - [https://rurakite.github.io/sweet-memories/](https://rurakite.github.io/sweet-memories/)
