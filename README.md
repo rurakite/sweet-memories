@@ -53,4 +53,4 @@ This game was created by using HTML, CSS and Javascript languages. The main page
   - Click 'Save'
   - A live link will be displayed in a green banner when published successfully.
   
-  The link can be found here - [https://rurakite.github.io/sweet-memory/](https://rurakite.github.io/sweet-memory/)
+  The link can be found here - [https://rurakite.github.io/sweet-memory/](https://rurakite.github.io/sweet-memories/)
